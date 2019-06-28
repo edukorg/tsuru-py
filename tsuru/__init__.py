@@ -6,6 +6,7 @@ from tsuru.models import (
     Log,
     Plan,
     Platform,
+    Team,
 )
 from tsuru.exceptions import (
     DoesNotExist,
@@ -25,6 +26,7 @@ __all__ = (
     'Log',
     'Plan',
     'Platform',
+    'Team',
     'DoesNotExist',
     'UnexpectedDataFormat',
     'UnsupportedModelException',
