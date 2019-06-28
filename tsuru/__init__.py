@@ -4,6 +4,7 @@ from tsuru.models import (
     Env,
     Lock,
     Log,
+    Plan,
 )
 from tsuru.exceptions import (
     DoesNotExist,
@@ -21,6 +22,7 @@ __all__ = (
     'Env',
     'Lock',
     'Log',
+    'Plan',
     'DoesNotExist',
     'UnexpectedDataFormat',
     'UnsupportedModelException',
