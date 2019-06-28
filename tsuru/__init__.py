@@ -7,6 +7,7 @@ from tsuru.models import (
     Plan,
     Platform,
     Team,
+    Unit,
 )
 from tsuru.exceptions import (
     DoesNotExist,
@@ -27,6 +28,8 @@ __all__ = (
     'Plan',
     'Platform',
     'Team',
+    'Unit',
+
     'DoesNotExist',
     'UnexpectedDataFormat',
     'UnsupportedModelException',

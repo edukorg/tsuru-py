@@ -6,6 +6,9 @@ from tsuru.models.log import Log
 from tsuru.models.plan import Plan
 from tsuru.models.platform import Platform
 from tsuru.models.team import Team
+from tsuru.models.unit import Unit
+
+
 __all__ = (
     'App',
     'Deploy',
@@ -15,4 +18,5 @@ __all__ = (
     'Plan',
     'Platform',
     'Team',
+    'Unit',
 )
