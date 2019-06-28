@@ -1,0 +1,96 @@
+[
+    {
+        "name": "hufflepuff-stg",
+        "pool": "stg",
+        "teamowner": "hogwarts",
+        "plan": {
+            "name": "entry",
+            "memory": 805306368,
+            "swap": 0,
+            "cpushare": 2
+        },
+        "units": [
+            {
+                "ID": "some-very-large-id-here-for-hufflepuff",
+                "Name": "hufflepuff-stg-7bfecd55249a54a4fc09",
+                "AppName": "hufflepuff-stg",
+                "ProcessName": "web",
+                "Type": "python",
+                "Ip": "ip-10-0-0-42.ec2.internal",
+                "Status": "started",
+                "Address": {
+                    "Scheme": "http",
+                    "Opaque": "",
+                    "User": null,
+                    "Host": "ip-10-0-0-42.ec2.internal:32772",
+                    "Path": "",
+                    "RawPath": "",
+                    "ForceQuery": false,
+                    "RawQuery": "",
+                    "Fragment": ""
+                },
+                "HostAddr": "p-10-0-0-42.ec2.internal",
+                "HostPort": "32772",
+                "IP": "p-10-0-0-42.ec2.internal"
+            }
+        ],
+        "cname": [
+            "hufflepuff-stg.hogwarts.wiz"
+        ],
+        "ip": "hufflepuff-stg.tsuru.vpc",
+        "lock": {
+            "Locked": false,
+            "Reason": "",
+            "Owner": "",
+            "AcquireDate": "0001-01-01T00:00:00Z"
+        },
+        "tags": []
+    },
+   {
+        "name": "griffindor-stg",
+        "pool": "stg",
+        "teamowner": "hogwarts",
+        "plan": {
+            "name": "entry",
+            "memory": 805306368,
+            "swap": 0,
+            "cpushare": 2
+        },
+        "units": [
+            {
+                "ID": "some-very-large-id-here-for-griffindor",
+                "Name": "griffindor-stg-7bfecd66649a54a4fc09",
+                "AppName": "griffindor-stg",
+                "ProcessName": "web",
+                "Type": "python",
+                "Ip": "ip-10-0-0-7.ec2.internal",
+                "Status": "started",
+                "Address": {
+                    "Scheme": "http",
+                    "Opaque": "",
+                    "User": null,
+                    "Host": "ip-10-0-0-7.ec2.internal:32772",
+                    "Path": "",
+                    "RawPath": "",
+                    "ForceQuery": false,
+                    "RawQuery": "",
+                    "Fragment": ""
+                },
+                "HostAddr": "p-10-0-0-7.ec2.internal",
+                "HostPort": "32772",
+                "IP": "p-10-0-0-7.ec2.internal"
+            }
+        ],
+        "cname": [
+            "griffindor-stg.hogwarts.wiz"
+        ],
+        "ip": "griffindor-stg.tsuru.vpc",
+        "lock": {
+            "Locked": false,
+            "Reason": "",
+            "Owner": "",
+            "AcquireDate": "0001-01-01T00:00:00Z"
+        },
+        "tags": []
+    }
+]

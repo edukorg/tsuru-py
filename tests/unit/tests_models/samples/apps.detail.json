@@ -1,0 +1,57 @@
+{
+    "cname": [
+        "hufflepuff-stg.hogwarts.wiz"
+    ],
+    "deploys": 44,
+    "description": "https://github.com/hogwarts/hufflepuff-api",
+    "ip": "hufflepuff-api-prd.tsuru-131.vpc",
+    "lock": {
+        "Locked": false,
+        "Reason": "",
+        "Owner": "",
+        "AcquireDate": "0001-01-01T00:00:00Z"
+    },
+    "name": "hufflepuff-api-prd",
+    "owner": "harry.potter@hogwarts.wiz",
+    "plan": {
+        "cpushare": 2,
+        "memory": 805306368,
+        "name": "entry",
+        "router": "hipache",
+        "swap": 0
+    },
+    "platform": "python",
+    "pool": "stg",
+    "repository": "git@tsuru-gandalf.hogwarts.vpc:hufflepuff-api-prd.git",
+    "router": "hipache",
+    "tags": [],
+    "teamowner": "albus",
+    "teams": [
+        "albus"
+    ],
+    "units": [
+        {
+            "ID": "some-very-large-id-here-for-griffindor",
+            "Name": "griffindor-stg-7bfecd66649a54a4fc09",
+            "AppName": "griffindor-stg",
+            "ProcessName": "web",
+            "Type": "python",
+            "Ip": "ip-10-0-0-7.ec2.internal",
+            "Status": "started",
+            "Address": {
+                "Scheme": "http",
+                "Opaque": "",
+                "User": null,
+                "Host": "ip-10-0-0-7.ec2.internal:32772",
+                "Path": "",
+                "RawPath": "",
+                "ForceQuery": false,
+                "RawQuery": "",
+                "Fragment": ""
+            },
+            "HostAddr": "p-10-0-0-7.ec2.internal",
+            "HostPort": "32772",
+            "IP": "p-10-0-0-7.ec2.internal"
+        }
+    ]
+}
