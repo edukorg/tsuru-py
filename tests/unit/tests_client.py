@@ -2,7 +2,7 @@ import json
 import unittest
 
 import httpretty
-from mock import patch
+from unittest.mock import patch
 
 from tsuru import client
 
