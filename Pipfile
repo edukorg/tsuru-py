@@ -9,10 +9,8 @@ requests = ">=2.20.0, <3"
 [dev-packages]
 pylint = '*'
 httpretty = '<1'
-mock = '>=3,<4'
-codecov = '>=2,<3'
 nose = '>=1,<2'
 twine = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
