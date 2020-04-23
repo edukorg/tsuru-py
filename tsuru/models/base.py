@@ -30,8 +30,8 @@ class BaseModel:
                 return self._get(value)
             raise exceptions.UnexpectedDataFormat()
 
-    def refresh(self):
-        if not self._detailed:
+    def refresh(self, force=True):
+        if force or not self._detailed:
             self._data = self.get(pk=self.pk)._data
             self._detailed = True
 
